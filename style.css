@@ -1050,3 +1050,6 @@ img{
     text-align: right;
     padding: 0 15px;
 }
+i:hover:after{
+    content: attr(data-tip);
+}
